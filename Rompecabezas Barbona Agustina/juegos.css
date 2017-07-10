@@ -1,0 +1,84 @@
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  width: 940px;
+  margin: 5% auto;
+  min-height: 100%;
+  background-image: url(Fondo.jpg);
+  background-size: 100% 100%;
+}
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+li {
+  padding: 5px 0;
+}
+li::before {
+  content: "• ";
+  color: #EC6978;
+}
+
+.col-40, .General {
+  display: table-cell;
+  margin: 0;
+  vertical-align: top;
+}
+.col-40 {
+  background:#F2D7D5;
+  padding: 30px;
+  color: #000;
+}
+
+#juego div {
+
+  text-align: center;
+  animation: fadein 2s;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+.pieza{
+  width: 33.333%;
+  height: 33.333%;
+  float: left;
+}
+#juego{
+  width: 600px;
+  height: 600px;
+  background: red;
+}
+.pieza img{
+   width: 100%;
+   border: 1px solid red;
+   box-sizing: border-box;
+}
+h1{
+  color: #581845  ;}
+ h2{
+  color: #FFBF00;
+  text-align: center;
+  text-decoration: underline;  
+}
+#footer{ 
+ background: #333;
+ text-align:center;
+ background-color: black;
+ font-family: Harrington,TrueType;
+ }
+p{
+color: white;
+ }
+.col-40{
+  float:  40%
+}
+
+h2{
+  font-family: Lucida,Calligraphy Italic;
+  color: #FF5531;
+}
+
